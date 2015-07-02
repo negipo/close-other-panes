@@ -1,0 +1,14 @@
+{
+  "name": "close-other-panes",
+  "main": "./lib/close-other-panes",
+  "version": "0.0.0",
+  "description": "close-other-panes provides the close other panes command.",
+  "activationCommands": {
+    "atom-workspace": "close-other-panes:close-other-panes"
+  },
+  "repository": "https://github.com/negipo/close-other-panes",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0"
+  }
+}

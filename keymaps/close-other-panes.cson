@@ -1,0 +1,2 @@
+'atom-workspace':
+  'cmd-k cmd-shift-w': 'close-other-panes:close-other-panes'
