@@ -2,7 +2,7 @@
   "name": "close-other-panes",
   "main": "./lib/close-other-panes",
   "version": "0.1.0",
-  "description": "close-other-panes provides the close other panes command.",
+  "description": "close-other-panes closes panes other than current pane.",
   "activationCommands": {
     "atom-workspace": "close-other-panes:close-other-panes"
   },
