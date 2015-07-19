@@ -25,9 +25,13 @@ module.exports =
 
     for pane in panes
       unless pane is currentPane
-        currentItems = currentPane.getItems()
         if moveItems
+          currentPathes = _.map(currentPane.getItems(), (item) ->
+            item.getPath()
+          )
+
           for item, i in pane.getItems()
-            unless _.contains(currentItems, item)
+            unless _.contains(currentPathes, item.getPath())
               pane.moveItemToPane(item, currentPane, i)
+
         pane.close()
