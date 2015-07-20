@@ -1,6 +1,7 @@
 # close-other-panes
 
 `close-other-panes` closes panes other than current pane.
+An option exists that move items into current pane when closing other panes.
 
 default keybind:
 
